@@ -1,0 +1,38 @@
+
+/* Remove margins and stretching */
+* {
+  margin: 0;
+  padding: 0;
+}
+#base {
+  background: white;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+#background {
+  width: 70vmin;
+  height: 70vmin;
+  background: #e8e0ff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+<div style="background:red;border-radius:25%;text-align:center">Text</div>
+#spookster {
+  position: relative;
+  border: 0.5vmin solid black;
+  width: 30vmin;
+  height: 30vmin;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom: 0;
+  box-sizing: border-box;
+  background: #ffdcff;
+}
